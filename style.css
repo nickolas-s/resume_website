@@ -176,7 +176,7 @@ p ~ ul {
     width: 280px;
   }
   #timeline ul li:nth-child(even) div {
-    left: -284px;
+    left: -318px;
   }
 }
 
