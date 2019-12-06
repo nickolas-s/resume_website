@@ -68,6 +68,7 @@ h1 {
 h1,
 h3 {
   font-family: var(--font-title);
+  padding-bottom: 0.5rem;
 }
 
 #timeline > ul {
@@ -172,7 +173,7 @@ p ~ ul {
 /* Media queries */
 @media (max-width: 900px) {
   #timeline ul li div {
-    width: 250px;
+    width: 280px;
   }
   #timeline ul li:nth-child(even) div {
     left: -284px;
@@ -213,6 +214,10 @@ p ~ ul {
 
   #timeline > ul {
     padding-top: 150px;
+  }
+
+  #timeline div ul {
+    display: none;
   }
 }
 
